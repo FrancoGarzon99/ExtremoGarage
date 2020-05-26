@@ -1,0 +1,218 @@
+/*transitions between sections*/
+html{
+    scroll-behavior: smooth;
+}
+/*browser margins and fonts*/
+body{
+    
+    margin: 0;
+    padding: 0;
+    font-family: raleway;
+}
+/*fixed browser*/
+header{
+    font-family: poppins;
+	position: fixed;
+	width: 100%;
+    height: auto;
+    z-index: 999;
+	-webkit-transition: background-color .5s;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+}
+
+
+/*main background of the website*/
+.fondoprin{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.67),rgba(0, 0, 0, 0.67)),url(../img/fondo.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    text-align: center;
+    color:#fff;
+}
+/*main background title*/
+.fondoprin .titleprin{
+    font-family: "poppins";
+    font-size: 65px;
+    letter-spacing: 10px;
+    font-weight: 600;
+    color: white; 
+    text-shadow: black 0.2em 0.2em 0.2em;
+
+}
+/*main background subtitle*/
+.fondoprin .titlesub{
+    font-family: "raleway";
+    font-size: 18px;
+    font-weight: 500;
+    color:#fff;
+    text-shadow: black 0.2em 0.2rem 0.2em;
+}
+/*CTA Main*/
+.btn-outline-dark{
+    color: #ffffff;
+    border-color: #ffffff;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    transition: .5s;  
+}
+.btn-outline-dark:hover{
+    background-color: #000000;
+    border-color: #000000;
+}
+/* section styles about we*/
+.aboutwe{
+    background-color: #000000;
+    width: 100%;
+    height: auto; 
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+  }
+/*style title*/
+.about_title .titlesec{
+    color: #fff;
+    font-size: 43px;
+    font-weight:500;
+    font-family: poppins;
+}
+.about_title p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 30px;
+    padding: 0px 15px;
+    color: #fff;
+}
+
+/*section styles our services*/
+.ourservices{
+    background-color: #fff;
+    width: 100%;
+    height: auto; 
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+/*style title*/
+.ourservices .service_title{
+    color: #1b1b1b;
+    font-size: 43px;
+    font-weight:500;
+    font-family: poppins;
+}
+/*style cards*/
+.card_item{
+    align-items: center; 
+    /*we add padding to the card*/
+    padding: 20px 0px;
+    transition:all 0.6s ease-in-out;
+    border-radius: 10px;
+    border-color: #bbbbbb;
+}
+/*card when we pass over */
+.card_item:hover{
+    -webkit-box-shadow: 15px 15px 2px 0px rgba(176,176,176,0.3);
+    -moz-box-shadow: 15px 15px 2px 0px rgba(176, 176, 176, 0.3);
+    box-shadow: 15px 15px 2px 0px rgba(176, 176, 176, 0.3);
+}
+/*margin top cards*/
+.service_item{
+    margin-top: 60px;
+}
+/*section styles testimonials*/
+.testimonials{
+    background-color:#000000;
+    width: 100%;
+    height: auto; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+/*style title*/
+.testimonials .test_title{
+    color: #fff;
+    font-size: 43px;
+    font-weight:500;
+    font-family: poppins;
+    margin-bottom: 50px;
+}
+/*style slider testimonials */
+.test_img_item{
+    width: 100px;
+}
+.estrellas_item{
+    width: 100px;
+    margin-top: 20px;
+}
+.p_txt{
+    margin: 20px 99px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+.h1_txt{
+    font-family: poppins;
+    color: #ffffff;
+    font-weight: 600;
+}
+.h5_txt{
+    font-size: 14px;
+    color: #ffffff;
+}
+/*style section videos */
+.videos{
+    width: 100%;
+    height: auto; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.video_title{
+    color: #1b1b1b;
+    font-size: 43px;
+    font-weight:500;
+    font-family: poppins;
+    margin-bottom: 50px;
+}
+.video_card{
+    padding: 10px 10px
+}
+.video_card iframe{
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2);
+}
+/*style section location*/
+
+.location{
+    background-color:#000000;
+    width: 100%;
+    height: auto; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+/*style footer*/
+
+footer{
+    background-color:#000000;
+    width: 100%;
+    height: auto; 
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+footer a:hover{
+  text-decoration: none;
+  color: #00badb;
+}
