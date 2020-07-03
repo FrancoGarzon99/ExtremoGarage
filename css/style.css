@@ -2,6 +2,10 @@
 html{
     scroll-behavior: smooth;
 }
+/*Edit scroll*/
+body::-webkit-scrollbar{
+    display: none;
+  }
 /*browser margins and fonts*/
 body{
     
